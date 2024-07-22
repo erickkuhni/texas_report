@@ -1,0 +1,76 @@
+:root { 
+  --alabaster: #fbfcfd;
+  --black: #000000;
+  --bs-white: #ffffff;
+  --mountain-mist: #97979766;
+  --peo--white: #ffffff;
+  --rhino: #2e396c;
+  --selago: #f0f3fb;
+  --steel-blue: #00879f;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 15px;
+  --font-size-s: 14px;
+  --font-size-xl: 28px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 34px;
+  --font-size-xxs: 12px;
+ 
+  --font-family-archivo: "Archivo", Helvetica;
+  --font-family-red_hat_display: "Red Hat Display", Helvetica;
+}
+.redhatdisplay-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-red_hat_display);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.redhatdisplay-semi-bold-rhino-15px {
+  color: var(--rhino);
+  font-family: var(--font-family-red_hat_display);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.redhatdisplay-bold-rhino-15px {
+  color: var(--rhino);
+  font-family: var(--font-family-red_hat_display);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.redhatdisplay-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-red_hat_display);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.redhatdisplay-extra-bold-steel-blue-14px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-red_hat_display);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.redhatdisplay-normal-white-12px {
+  color: var(--bs-white);
+  font-family: var(--font-family-red_hat_display);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.archivo-medium-rhino-13px {
+  color: var(--rhino);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
